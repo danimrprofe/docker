@@ -6,5 +6,13 @@ De este modo, con un solo comando podemos poner en marcha varios contenedores al
 ## Ejecución
 Una vez extraída la carpeta, ejecutar: 
 ```
-docker-compose-up
+docker-compose up
+```
+También podemos ejecutar los contenedores en segundo plano, utilizando
+```
+docker-compose up -d
+```
+Si queremos visualizar los contenedores que se están ejecutando:
+```
+docker ps
 ```
