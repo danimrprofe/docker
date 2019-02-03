@@ -4,4 +4,7 @@ Para ello definimos la configuración de los servicios mediante un archivo en fo
 De este modo, con un solo comando podemos poner en marcha varios contenedores al mismo tiempo.
 
 ## Ejecución
-Una vez extraída la carpeta, ejecutar docker-compose-up
+Una vez extraída la carpeta, ejecutar: 
+```
+docker-compose-up
+```
