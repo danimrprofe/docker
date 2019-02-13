@@ -1,3 +1,10 @@
+# Buenas prácticas para construir contenedores
+* Una sola aplicación por contenedor. Por ejemplo, PHP y Mysql en dos contenedores.
+* Agregar el código fuente de la aplición lo más tarde posible. Las capas y dependencias se pueden cachear y acelerar las builds posteriores
+* Eliminar todo lo que no sea necesario, o utilizar una imagen scratch o distroless.
+* Hacer las imágenes lo más pequeñas posibles. Reduce downtimes, tiempo de arranque y espacio en disco.
+* Etiquetar las imágenes
+
 # Docker
 Diferentes configuraciones de Docker
 
