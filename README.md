@@ -4,6 +4,7 @@
 * Eliminar todo lo que no sea necesario, o utilizar una imagen scratch o distroless.
 * Hacer las imágenes lo más pequeñas posibles. Reduce downtimes, tiempo de arranque y espacio en disco.
 * Etiquetar las imágenes
+* Utiliza volúmenes para manejar guardar la configuración y los datos fuera de los contenedores
 
 # Docker
 Diferentes configuraciones de Docker
