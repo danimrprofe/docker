@@ -1,0 +1,27 @@
+//
+// Do any local configuration here
+//
+
+// Consider adding the 1918 zones here, if they are not used in your
+// organization
+//include "/etc/bind/zones.rfc1918";
+
+
+zone "iesdmoreno.org" in {
+	type master;
+	file "db.iesdmoreno.org";
+	allow-transfer { 192.168.0.20; };	#permito transferencia de la zona a NS2
+};
+
+zone "0.168.192.in-addr.arpa" in {
+	type master;
+	file "db.192.168.0";
+	allow-transfer { 192.168.0.20; };	#permito transferencia de la zona a NS2
+};
+
+zone "1.168.192.in-addr.arpa" in {
+	type master;
+	file "db.192.168.1";
+	allow-transfer { 192.168.0.20; };	#permito transferencia de la zona a NS2
+ };
+

@@ -1,0 +1,5 @@
+acl "trusted"{
+	192.168.0.10;	#ns1
+	192.168.0.20;	#ns2
+	192.168.0.0/24; #subred que utilizaremos
+};

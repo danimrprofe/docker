@@ -1,0 +1,22 @@
+iesdmoreno.org. IN SOA ns1.iesdmoreno.org. dmoreno.iesdmoreno.org.(
+    1    ; serial
+    3h;
+    1h;
+    1w;
+    1h;
+)
+
+iesdmoreno.org.	IN    NS    ns1.iesdmoreno.org.
+ns1.iesdmoreno.org.	IN    A    192.168.0.10
+ns2.iesdmoreno.org.        IN    A    192.168.1.2
+www.iesdmoreno.org.        IN         A          192.168.0.10
+peluqueria.fp.iesdmoreno.org.    IN    A    192.168.0.3
+informatica.fp.iesdmoreno.org.    IN    A    192.168.0.4
+eso.secundaria.iesdmoreno.org.    IN    A    192.168.1.3
+bachillerato.secundaria.iesdmoreno.org.    IN    A    192.168.1.4
+
+;Alias
+
+pel.iesdmoreno.org.        IN    CNAME    peluqueria.fp.iesdmoreno.org.
+inf.iesdmoreno.org.        IN    CNAME    informatica.fp.iesdmoreno.org.
+eso.iesdmoreno.org.        IN    CNAME    eso.secundaria.iesdmoreno.org.

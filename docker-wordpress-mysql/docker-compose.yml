@@ -1,0 +1,11 @@
+version: '3.3'
+
+services:
+  bind:
+    build: ./bind
+    volumes: 
+      - ./bind/DATA/varcachebind:/var/cache/bind
+      - ./bind/DATA/etcbind:/etc/bind
+    ports: 
+      - "53:53"
+  
