@@ -9,7 +9,7 @@ services:
 		ports: 
 			- "53:53"
 	vsfpd:
-		build: ./vsftpd
+		image: ./vsftpd
 		volumes:
 			- ./vsftpd/DATA/
 			- ./vsftpd/
