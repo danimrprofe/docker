@@ -65,7 +65,7 @@ docker rm -v $(docker ps -aq)
 ## Monitorizar contenedores ##
 
 * Comprobar recursos que utiliza un contenedor: docker stats xxx
-Comprobar los logs de un contenedor: docker logs
-Comprobar todos los eventos que han ocurrido a un contenedor: docker events 
-Listar procesos de un contenedor: docker top xxx
+* Comprobar los logs de un contenedor: docker logs
+* Comprobar todos los eventos que han ocurrido a un contenedor: docker events 
+* Listar procesos de un contenedor: docker top xxx
 
