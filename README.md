@@ -13,7 +13,7 @@ Diferentes configuraciones de Docker
 Permiten automatizar la construcción de una imagen, a través de un fichero que contiene instrucciones para fabricar una imagen, a través de una serie de pasos.
 
 Formato del Dockerfile, que se creará dentro de la carpeta donde tengamos el proyecto
-```
+```docker
 FROM ubuntu:14.04
 ENTRYPOINT ["/bin/echo"]
 ```
